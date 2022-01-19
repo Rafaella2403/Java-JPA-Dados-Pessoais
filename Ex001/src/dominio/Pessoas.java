@@ -49,11 +49,11 @@ public class Pessoas implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Pessoas [id=" 
+		return "Pessoas [id: "
 				+ id 
-				+ ", nome=" 
+				+ ", nome: " 
 				+ nome 
-				+ ", email=" 
+				+ ", email: " 
 				+ email 
 				+ "]";
 	}
