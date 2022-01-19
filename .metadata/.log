@@ -123,3 +123,45 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:06:05.970
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aIYSDxWa => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:24.515
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:24.517
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1a815341[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=564)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:24.518
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.416
+!MESSAGE Boot LS startup time from start to initialized: 2895ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.555
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aPnqRCsOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.556
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.557
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.558
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.559
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.560
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aPnqRCsO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.561
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.562
+!MESSAGE buffering callback sts4.classpath.aPnqRCsO Ex001 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.564
+!MESSAGE executing callback sts4.classpath.aPnqRCsO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-18 22:12:27.925
+!MESSAGE executing callback sts4.classpath.aPnqRCsO SUCCESS [done]
