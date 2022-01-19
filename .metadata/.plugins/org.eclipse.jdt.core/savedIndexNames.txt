@@ -4,7 +4,6 @@ INDEX VERSION 1.131+D:\Projetos\Springboot NA\JPA\.metadata\.plugins\org.eclipse
 3706503332.index
 2783852833.index
 1536491493.index
-1373756743.index
 1294221919.index
 530099077.index
 3516912818.index

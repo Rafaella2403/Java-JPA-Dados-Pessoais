@@ -18,7 +18,7 @@ public class Pessoas implements Serializable{
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	//@Colum indica para o JPA que o nome do atributo vai ser diferente do nome da classe.
+	//@Column indica para o JPA que o nome do atributo vai ser diferente do nome da classe.
 	@Column(name="nomeCompleto")
 	private String nome;
 	private String email;
