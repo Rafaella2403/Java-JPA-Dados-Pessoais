@@ -2,12 +2,24 @@ package dominio;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Pessoas implements Serializable{
 	
 	/*Descrição da atividade
 	 * Faça as configurações da classe Pessoa e os mapeamentos*/
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+	
+	//@Colum indica para o JPA que o nome do atributo vai ser diferente do nome da classe.
+	@Column(name="nomeCompleto")
 	private String nome;
 	private String email;
 	private static final long serialVersionUID = 1L;
